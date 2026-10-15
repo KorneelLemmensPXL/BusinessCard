@@ -9,6 +9,10 @@
             Console.ResetColor();
             Console.WriteLine("Graduaat Programmeren");
             Console.WriteLine("C#");
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Groetjes van je linkse buur");
+            Console.ResetColor();
         }
     }
 }
