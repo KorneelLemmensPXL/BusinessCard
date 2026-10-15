@@ -7,12 +7,20 @@
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("Korneel Lemmens");
             Console.ResetColor();
-            Console.WriteLine("Graduaat Programmeren");
-            Console.WriteLine("C#");
+            Console.WriteLine("+------------------------------------+");
+            Console.WriteLine("| Opleiding    Graduaat Programmeren |");
+            Console.WriteLine("| Klasgroep:   1Pro e                |");
+            Console.WriteLine("| Leukste vak: Werkplekleren         |");
+            Console.WriteLine("+------------------------------------+");
 
+            
+            Console.Write("|");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Groetjes van je linkse buur");
+            Console.Write ("Groetjes van je linkse buur        ");
             Console.ResetColor();
+            Console.WriteLine(" |");
+            Console.WriteLine("+------------------------------------+");
+            
         }
     }
 }
