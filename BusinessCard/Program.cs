@@ -5,7 +5,18 @@
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("Korneel Lemmens");
+            string ascii = """
+     _  __                          _   _                                             
+    | |/ /                         | | | |                                            
+    | ' / ___  _ __ _ __   ___  ___| | | |     ___ _ __ ___  _ __ ___   ___ _ __  ___ 
+    |  < / _ \| '__| '_ \ / _ \/ _ \ | | |    / _ \ '_ ` _ \| '_ ` _ \ / _ \ '_ \/ __|
+    | . \ (_) | |  | | | |  __/  __/ | | |___|  __/ | | | | | | | | | |  __/ | | \__ \
+    |_|\_\___/|_|  |_| |_|\___|\___|_| |______\___|_| |_| |_|_| |_| |_|\___|_| |_|___/
+
+                                                                                      
+
+    """;
+            Console.WriteLine(ascii);
             Console.ResetColor();
             Console.WriteLine("+------------------------------------+");
             Console.WriteLine("| Opleiding    Graduaat Programmeren |");
