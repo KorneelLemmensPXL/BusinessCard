@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("Korneel Lemmens");
+            Console.ResetColor();
+            Console.WriteLine("Graduaat Programmeren");
+            Console.WriteLine("C#");
         }
     }
 }
